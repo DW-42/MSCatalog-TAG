@@ -46,7 +46,7 @@ function Get-MSOfficeBuildNumber {
 		.LINK
 		https://github.com/ryan-jan/MSCatalog
     #>
-    
+    # Have you considered using 'https://clients.config.office.net/releases/v1.0/OfficeReleases'
     [CmdLetBinding()]
     param (
         [Parameter(Mandatory = $false)]
